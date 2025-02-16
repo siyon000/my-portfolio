@@ -152,8 +152,8 @@ function App() {
                 </div>
 
                 <motion.a
-                  href="public/SiyonResume.pdf"
-                  download="Resume.pdf"
+                  href="/SiyonResume.pdf"
+                  download="SiyonResume.pdf"
                   className="px-5 py-2 bg-transparent border border-blue-500 text-blue-400 rounded-full hover:bg-blue-500 hover:text-black transition-all duration-300 flex items-center gap-2 group tracking-wide"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
