@@ -98,7 +98,7 @@ function App() {
                 transition={{ delay: 0.6, duration: 0.8 }}
                 className="flex flex-wrap justify-center gap-2 mt-6"
               >
-                {['HTML/CSS', 'JavaScript', 'React', 'Tailwindcss', 'Git/Gitub', 'Python'].map((skill, index) => (
+                {['HTML/CSS', 'JavaScript', 'React', 'Tailwindcss', 'Git/Github', 'Python'].map((skill, index) => (
                   <span
                     key={index}
                     className="px-3 py-1 text-sm bg-gray-800 bg-opacity-50 text-gray-300 rounded-full backdrop-blur-sm tracking-wide"
@@ -152,8 +152,8 @@ function App() {
                 </div>
 
                 <motion.a
-                  href="public/Siyon Resume.pdf"
-                  download
+                  href="public/SiyonResume.pdf"
+                  download="Resume.pdf"
                   className="px-5 py-2 bg-transparent border border-blue-500 text-blue-400 rounded-full hover:bg-blue-500 hover:text-black transition-all duration-300 flex items-center gap-2 group tracking-wide"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
